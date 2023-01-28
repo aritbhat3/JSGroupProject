@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head >
+  <meta  charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeLogin</title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+
+<body>
+    <div class="login">
+        <h1>Resume Template Login</h1>
+        <form >
+            <div class="inputs">
+                <div>
+                    <input type="text" id="Username" name="Username" placeholder="User Name" required>
+                </div><br>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+            </div>
+                <div class="btn">
+                <input id= "login_btn" type="submit" value="Login" onclick="validate(Event)"/>
+                </div>
+        </form>
+    </div>
+    <script>
+        const Credentials = [
+    {
+    username : "John Doe",
+    password : "John2023!@#" 
+  },
+  {
+    username : "Smitha Singh",
+    password : "Smit2023!@#" 
+  },
+  {
+    username : "Rahul Rana",
+    password : "Rahul2023!@#" 
+  }
+]
+  
+  window.localStorage.setItem("Credentials", JSON.stringify(Credentials));
+  console.log(Credentials);
+    </script>
+</body>
+</html>

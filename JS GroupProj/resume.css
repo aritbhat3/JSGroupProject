@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(168, 166, 166);
+   text-align: center;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(7, 139, 226, 0.5);
+    box-shadow: 0 20px 25px rgba(6, 64, 112);
+    border-radius: 10px;
+}
+.form h1{
+    margin: 0 0 20px;
+    padding:0;
+    color: black;
+    text-align: center;
+   
+}
+.inputs{
+   position: relative;
+   color: black;
+   margin-bottom: 5px ;
+   border: none;
+   outline: none;
+   display: inline-block;
+   justify-content: center;
+ 
+}
+.inputs ol{
+padding: 0%;
+}
+.inputs ol input{
+    font-size: 14px;
+    height: 25px;
+    width: 250px;
+}
+.btn input{
+    border: 5px;
+    border-color: black;
+    background-color: blueviolet;
+    box-shadow: 0 5px 5px rgba(6, 64, 112);
+    border-radius: 5px;
+    height: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
